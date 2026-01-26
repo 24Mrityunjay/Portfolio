@@ -1,0 +1,102 @@
+:root {
+  /* ============================= */
+  /* BASE COLORS */
+  /* ============================= */
+  --text-color: #293848;
+  --border-color: #e5e7eb;
+  --logo-color: #293848;
+
+  /* ============================= */
+  /* TEXT COLORS (UI) */
+  /* ============================= */
+  --text-heading: #374151;     /* headers, titles */
+  --text-nav: #374151;         /* navbar links */
+  --text-body: #4b5563;        /* normal content */
+  --text-muted: #6b7280;       /* hints, placeholders */
+  --text-light: #737b8b;       /* disabled */
+  --text-placeholder: #b6bac2;       /* disabled */
+  --text-inverse: #ffffff;     /* on dark bg */
+
+  /* ============================= */
+  /* BRAND COLORS */
+  /* ============================= */
+  --primary-color: #37435c;
+  --primary-hover: #5574bf;
+  --secondary-color: #64748b;
+  --success-color: #22c55e;
+  --error-color: #ef4444;
+  --warning-color: #f59e0b;
+  --info-color: #416fd9;
+
+  /* ============================= */
+  /* BACKGROUNDS */
+  /* ============================= */
+  --bg-light: #ffffff;
+  --bg-gray: #f3f4f6;
+  --bg-dark: #111827;
+
+  /* ============================= */
+  /* FONTS */
+  /* ============================= */
+  --font-family-base: "Poppins", sans-serif;
+  --font-family-heading: "Poppins", sans-serif;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-xs: 0.65rem;
+  --font-size-sm: 0.875rem;
+  --font-size: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+
+  /* ============================= */
+  /* SPACING */
+  /* ============================= */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+
+  /* ============================= */
+  /* BORDER RADIUS */
+  /* ============================= */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-full: 9999px;
+
+  /* ============================= */
+  /* SHADOWS */
+  /* ============================= */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
+
+  /* ============================= */
+  /* TRANSITIONS */
+  /* ============================= */
+  --transition-fast: 0.15s ease-in-out;
+  --transition-base: 0.25s ease-in-out;
+
+  /* ============================= */
+  /* Z-INDEX */
+  /* ============================= */
+  --z-header: 1000;
+  --z-dropdown: 1100;
+  --z-modal: 1200;
+  --z-tooltip: 1300;
+
+  /* ============================= */
+  /* LINK */
+  /* ============================= */
+  --link-color: var(--primary-color);
+  --link-hover-color: var(--primary-hover);
+}
