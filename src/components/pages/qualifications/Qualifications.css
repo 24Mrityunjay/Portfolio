@@ -92,12 +92,12 @@
 /*=============== BREAKPOINTS ===============*/
 
 /* For large devices */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .qualification__container {
     margin-left: auto;
     margin-right: auto;
   }
-}
+} */
 
 /* For medium devices */
 @media screen and (max-width: 768px) {

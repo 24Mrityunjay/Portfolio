@@ -60,12 +60,12 @@
 /*=============== BREAKPOINTS ===============*/
 
 /* For large devices */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
   .skills-container {
     grid-template-columns: max-content;
     row-gap: 2rem;
   }
-}
+} */
 
 /* For medium devices */
 @media screen and (max-width: 576px) {

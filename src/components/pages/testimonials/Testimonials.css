@@ -50,7 +50,7 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .testimonial__container {
     width: initial;
   }
