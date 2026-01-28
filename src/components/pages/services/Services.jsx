@@ -3,6 +3,10 @@ import './Services.css';
 import { BiArrowToRight, BiCheckCircle, BiServer } from 'react-icons/bi'
 import { CgClose } from "react-icons/cg";
 
+import { FaLaptopCode,FaMobileAlt, FaTachometerAlt } from "react-icons/fa";
+import { HiOutlineSparkles } from "react-icons/hi2";
+
+
 const Services = () => {
     const [toggleState, setToggleState] = useState(0);
     const toggleTab = (index) =>{
@@ -15,10 +19,10 @@ const Services = () => {
                 <span>What i offer</span>
             </div>
 
-            <div className="services-container container grid">
+            <div className="services-container grid">
                 <div className="services-content">
                     <div>
-                        <BiServer className='uil uil services-icon' />
+                        <FaLaptopCode className='uil uil services-icon' />
                         <h3 className="services-title">Web Application Development</h3>
                     </div>
 
@@ -83,7 +87,7 @@ const Services = () => {
 
                 <div className="services-content">
                     <div>
-                        <BiServer className='uil uil services-icon' />
+                        <FaMobileAlt className='uil uil services-icon' />
                         <h3 className="services-title">Mobile App Development</h3>
                     </div>
 
@@ -142,7 +146,7 @@ const Services = () => {
 
                 <div className="services-content">
                     <div>
-                        <BiServer className='uil uil services-icon' />
+                        <FaTachometerAlt className='uil uil services-icon' />
                         <h3 className="services-title">Frontend Architecture & Performance</h3>
                     </div>
 
@@ -207,7 +211,7 @@ I design robust frontend architectures that are scalable, maintainable, and opti
 
                  <div className="services-content">
                     <div>
-                        <BiServer className='uil uil services-icon' />
+                        <HiOutlineSparkles className='uil uil services-icon' />
                         <h3 className="services-title">Product Development & UI Modernization</h3>
                     </div>
 

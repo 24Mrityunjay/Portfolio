@@ -14,7 +14,7 @@ const Qualifications = () => {
             <h2 className="section-title">Qualification</h2>
             <p className="section-subtitle">My personel journey</p>
 
-            <div className="qualification-container container">
+            <div className="qualification-container ">
                 <div className="qualification-tabs">
                     
                     <div className={toggleState === 1

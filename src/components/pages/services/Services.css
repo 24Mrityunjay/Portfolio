@@ -7,6 +7,7 @@
   justify-content: center;
   column-gap: 1.8rem;
   row-gap: 1.8rem;
+  /* padding: 1rem; */
 }
  
 .services-content {
@@ -15,6 +16,7 @@
   background-color: var(--bg-light);
   padding: 2rem;
   border-radius: 1rem;
+  /* margin: 8px;   */
 }
  
 .services-icon {
@@ -148,6 +150,12 @@
 @media screen and (max-width: 768px) {
   .services-container {
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 10px;
+        row-gap: 10px;
+  }
+
+  .services-content{
+    padding: 1rem;
   }
 
   .services__content {
