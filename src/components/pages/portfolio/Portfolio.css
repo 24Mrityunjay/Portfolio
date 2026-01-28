@@ -109,3 +109,20 @@ padding: 8px 22px;
 .card-content a:hover {
     color: #000;
 }
+
+
+@media screen and (max-width: 576px) {
+  .filters {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+    max-width: 900px;
+    margin: auto;
+}
+
+}

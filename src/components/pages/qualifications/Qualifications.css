@@ -113,7 +113,12 @@
     }
 
     .qualification-button{
-        margin: 0 o.75rem;
+        margin: 0 0.75rem;
+        font-size: var(--font-size-sm);
+    }
+
+    .qualification-title{
+      font-size: var(--font-size-sm);
     }
 }
 
